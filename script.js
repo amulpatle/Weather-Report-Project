@@ -31,13 +31,13 @@ const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${a
      weather_img.src = "images/clear.png";
      break;
     case 'Rain':
-     weather_img.src = "images/Rain.png";
+     weather_img.src = "images/rain.png";
      break;
     case 'Mist':
-     weather_img.src = "images/Mist.png";
+     weather_img.src = "images/mist.png";
      break;
     case 'Snow':
-     weather_img.src = "images/Snow.png";
+     weather_img.src = "images/snow.png";
      break;
   }
 
